@@ -1,0 +1,89 @@
+ Hao-Yu Tien
+Taoyuan City
++886 966485606/ stu710319@gmail.com/ linkedin.com/in/tomytien
+  EDUCATION
+Imperial College London
+Master of Science in Financial Technology (Incoming)
+● Note: Secured admission for the 2026/27 academic year
+National Chung Cheng University (CCU)
+London, United Kingdom Aug 2026 – Aug 2027 (Expected)
+Chiayi, Taiwan
+ Bachelor of Management (Double major in Finance and Information Management) Sep 2021 – Jun 2025
+● Overall GPA: 4.05/4.3
+● Studied the Big Data and Data Science Program
+● Studied the Financial Technology Program
+● Project: ReChain - A Blockchain-based Sustainable E-Commerce Platform
+- Leveraged blockchain to enhance e-commerce transaction transparency and traceability while
+integrating token economics for sustainable community finance.
+RESEARCH & PUBLICATIONS
+IEEE 25th International Conference on Information Reuse and Integration for Data Science (IRI), 2024 – An Enhanced Model for ASR in the Medical Field
+● Developed an optimised ASR system using PubMed and MedDialog datasets.
+● Applied Bert2Bert, BioBert2BioBert and BART for error correction, improving OCR accuracy for
+medical texts.
+● Demonstrated real-world applicability for enhancing medical consultations.
+In-Class Research: ESG Investment Analysis – Impact of ESG Ratings on Portfolio Performance
+Built ESG-based portfolios using top-rated stocks from MSCI, S&P, LSEG and Yahoo!, analysed with Monte Carlo simulations and CAPM in Python.
+Found MSCI portfolios achieved the highest Sharpe Ratio (1.09 vs. 0.87 market benchmark) under historical returns; LSEG outperformed under CAPM.
+Demonstrated ESG investing can match or exceed market-level risk-adjusted returns, highlighting
+its viability despite rating inconsistencies.
+In-Class Research: Corporate Governance and Firm Performance
+● Employed panel data from Taiwan-listed firms (2018–2022) to examine the effect of board structure
+on ROA.
+● Utilised OLS, 2SLS and fixed-effects models in EViews to address endogeneity and
+heteroscedasticity.
+● Found CEO ownership positively correlated with ROA; board independence exhibited signs of
+reverse causality.
+In-Class Research: From Data to Decision: Traffic Death Prediction with Machine Learning
+● Built classification models using Taiwan A1/A2 traffic accident data (2024–2025), with 25 selected
+features after data cleaning and transformation.
+● Compared five models (Decision Tree, Logistic Regression, Discriminant Analysis, SVC, NuSVC);
+NuSVC achieved the highest F1-score (0.65) and recall (0.63), making it optimal for identifying fatal
+cases.
+● Evaluated model performance using AUC, precision, recall and confusion matrix; findings support
+the use of NuSVC in high-recall public safety scenarios.
+PROJECTS & INNOVATION
+Pear-to-Peer Token: Mutual Aid Utopia (Exhibited at Fintech Taipei 2024)
+● Inspired by the City Pay white paper published by Bristol Pound (Bristol Pay).
+● Utilised the concept of time bank and crowd-funding to build a mutual-aided, eco-friendly
+community.
+ ● ● ●
+ CCU MIS ChatAI Assistant
+
+ ● Fine-tuned the open-source LLM Qwen2.5-0.5B using LoRA to answer CCU MIS-related queries, and deployed the model via Python FastAPI with a visualised chat interface.
+Economic-Aware AI Assistant for Investment Insights
+● Developed an AI-powered assistant to help retail investors interpret financial reports, technical indicators and news sentiment.
+● Integrated PDF parsing, news de-duplication and technical chart analysis to generate investment recommendations via LLM-based prompts.
+● Designed personalised output combining trend detection, risk factors and strategy advice, based on user preferences and multi-source data fusion.
+COMPETITIONS & AWARDS
+● University Asset Management Training Camp – 2nd Place (Python-based Financial Analysis)
+● Sustainable Finance Bootcamp – 2nd Place (ESG Risk Management with Frameworks)
+● Taiwan Business Strategy Awards Competition – Honorable Mention Award
+● CCU Campus Programming Competition – Honorable Mention Award
+● National Colleges and Universities Innovation and Entrepreneurship Competition – Honorable
+Mention Award
+WORK EXPERIENCE
+Institute of Finance, National Yang Ming Chiao Tung University (NYCU) Hsinchu, Taiwan
+AI Research Assistant (Part-time) Sep 2025 – Present
+● Engineered a Hyperbolic Graph Neural Network (HGNN) tailored for link prediction, leveraging hyperbolic geometry to optimise the representation of hierarchical structures in complex datasets.
+● Benchmarked model performance against state-of-the-art baselines using PyTorch, quantifying the performance gains of the hyperbolic approach over Euclidean models.
+● Validated model efficacy through extensive experimentation, utilising AUC and Average Precision (AP) metrics to demonstrate reduced distortion and improved accuracy in network analysis.
+Shanghai Stock Exchange Shanghai, China Internship Jul 2025 – Aug 2025
+● Conducted cross-departmental research, company visits, and industry analysis to cultivate strategic assessments and understand capital market operations.
+● Co-authored a thematic report on global virtual asset ETFs and stablecoins, analysing regulatory developments such as the Genius Act and cross-border ETF approvals.
+Aurora Quantitative Technology Corp. Ltd. Taipei, Taiwan
+Cybersecurity Intern Jul 2024 – Aug 2024
+● Gained proficiency in the laws and standards of cybersecurity, especially in the financial field.
+  Software Testing Intern
+● Conducted regression testing and API validation for trading platforms.
+● Automated testing workflows using Python and Selenium.
+LEADERSHIP & EXTRACURRICULAR ACTIVITIES CCU FinTech Club
+President
+Jul 2022
+Chiayi, Taiwan Sep 2023 – Jun 2025
+ ● Organise workshops on technology applications in finance (e.g. AI, blockchain).
+● Establish partnerships with industry professionals and academic researchers.
+SKILLS
+Language: Mandarin Chinese (native); English (fluent)
+Programming & Tools: Python (Numpy, pandas, scikit-learn, matplotlib); PyTorch; R; SAS; Swift; Java (Spring Boot); C#; Tableau; MS Office (Excel, PowerPoint, Word, VBA); PostgreSQL; MS SQL
+FinTech & Analytics Skills: Financial modelling; Blockchain & smart contracts; API automation (Selenium); FastAPIs
+ 
