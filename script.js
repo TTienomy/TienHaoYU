@@ -143,18 +143,40 @@
 })();
 
 
-/* 6. PROJECT LINK placeholder — replace '#' hrefs with real URLs later */
-(function initProjectLinks() {
-  const placeholders = {
-    'p2p-demo':     '#',  // Replace with your GitHub/demo link
-    'chatai-demo':  '#',
-    'econai-demo':  '#',
-    'rechain-demo': '#',
-  };
+/* 6. PROJECT ACCORDION — expand / collapse on click */
+(function initProjectAccordion() {
+  const items = document.querySelectorAll('.proj-item');
 
-  Object.entries(placeholders).forEach(([id, url]) => {
-    const el = document.getElementById(id);
-    if (el && url !== '#') el.href = url;
+  items.forEach(item => {
+    const btn  = item.querySelector('.proj-header');
+    const body = item.querySelector('.proj-body');
+    if (!btn || !body) return;
+
+    btn.addEventListener('click', () => {
+      const isOpen = item.classList.contains('open');
+
+      // Close all others
+      items.forEach(other => {
+        if (other !== item) {
+          other.classList.remove('open');
+          const ob = other.querySelector('.proj-body');
+          const obtn = other.querySelector('.proj-header');
+          if (ob)   ob.setAttribute('hidden', '');
+          if (obtn) obtn.setAttribute('aria-expanded', 'false');
+        }
+      });
+
+      // Toggle current
+      if (isOpen) {
+        item.classList.remove('open');
+        body.setAttribute('hidden', '');
+        btn.setAttribute('aria-expanded', 'false');
+      } else {
+        item.classList.add('open');
+        body.removeAttribute('hidden');
+        btn.setAttribute('aria-expanded', 'true');
+      }
+    });
   });
 })();
 
